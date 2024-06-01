@@ -82,14 +82,15 @@ body{
     height: 100%;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
 .btn-black{
             
-    width: 60%;
+    width: 40%;
     height: 55px;
+    margin-left: 6px;
     background-color: #000000;
     color: white;
     font-size: 20px;
@@ -97,8 +98,9 @@ body{
 }
 .btn-white{
     
-    width: 60%;
+    width: 40%;
     height: 55px;
+    margin-right: 6px;
     background-color: #ffffff;
     color: black;
     font-size: 20px;
@@ -113,7 +115,7 @@ body{
 
 .s1{
     width: 100%;
-    height: 1000px;
+    height: 1200px;
     background-color: #f9fafb;
 }
 
@@ -134,7 +136,7 @@ body{
 
 .s1-description{
     width: 100%;
-    height: 5%;
+    height: 3%;
 
     display: flex;
     justify-content: center;
@@ -160,7 +162,7 @@ body{
             
     width: 130px;
     height: 60px;
-    margin: 10px;
+    margin: 5px;
     background-color: #000000;
     color: white;
     font-size: 20px;
@@ -170,7 +172,7 @@ body{
     
     width: 130px;
     height: 60px;
-    margin: 10px;
+    margin: 5px;
     background-color: #ffffff;
     color: black;
     font-size: 20px;
@@ -181,6 +183,7 @@ body{
 .s1-img{
     width: 100%;
     height: 40%;
+    padding-bottom: 70px;
 
     display: flex;
     justify-content: center;
@@ -190,14 +193,14 @@ body{
 
 
 /* milieu*/
-.m, .m1, .m2, .m3{
+/* .m, .m1, .m2, .m3{
     border : 1px solid red;
-}
+} */
 
 
 .m{
     width: 100%;
-    height: 1618px;
+    height: 1700px;
     padding: 96px 0px 96px 0px;
     background-color: #ffffff;
 
@@ -210,7 +213,7 @@ body{
 
 .m1{
     width: 100%;
-    height: 20%;
+    height: 10%;
     padding: 0px 32p 0px 32px;
 
     display: flex;
@@ -254,8 +257,8 @@ body{
 
 .m2{
     width: 100%;
-    height: 40%;
-    padding: 0px 32p 0px 32px;
+    height: 45%;
+    padding-top:130px;
 
     display: flex;
     flex-direction: line;
@@ -266,16 +269,47 @@ body{
 .m21{
     width: 50%;
     height: 100%;
-
+    padding-left: 200px;
+    padding-bottom: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: start;
+}
+
+.pm21{
+    font-size: 30px;
+    color:#101828;
+    font-weight: 600;
+    text-align: start;
+
+    padding-bottom: 10px;
+}
+
+.p2m21{
+    padding-bottom: 10px;
 }
 
 .m21 div{
-    margin-top: 15px;
+    margin-top: 10px;
 }
+
+.m211{
+    margin-left: 10px;
+}
+
+.m2111{
+    padding: 15px 0px 15px 0px;
+    display: flex;
+    flex-direction: line;
+    justify-content: center;
+    align-items: start;
+}
+.m2111 img{
+    padding-right: 10px;
+
+}
+
 
 .m22{
     width: 50%;
@@ -286,15 +320,80 @@ body{
     align-items: center;
 }
 
+.m22 img{
+    width: 1000px;
+    height: 700px;
+}
+
+
+
 .m3{
     width: 100%;
-    height: 40%;
-    padding: 0px 32p 0px 32px;
+    height: 45%;
+    padding-top:130px;
 
     display: flex;
     flex-direction: line;
     justify-content: center;
     align-items: center;
+}
+
+.m31{
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.m31 img{
+    width: 1000px;
+    height: 700px;
+}
+
+.m32{
+    width: 50%;
+    height: 100%;
+    padding-left: 200px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.pm32{
+    font-size: 30px;
+    color:#101828;
+    font-weight: 600;
+    text-align: start;
+
+    padding-bottom: 10px;
+}
+
+.p2m32{
+    padding-bottom: 10px;
+}
+
+.m32 div{
+    margin-top: 10px;
+}
+
+.m321{
+    margin-left: 10px;
+}
+
+.m3211{
+    padding: 15px 0px 15px 0px;
+    display: flex;
+    flex-direction: line;
+    justify-content: center;
+    align-items: start;
+}
+.m3211 img{
+    padding-right: 10px;
+
 }
 
 
@@ -363,22 +462,22 @@ body{
 
 .ac-btn-black{
             
-    width: 100px;
-    height: 40px;
-    margin: 0 10px;
+    width: 130px;
+    height: 55px;
+    margin-left: 10px;
     background-color: #000000;
     color: white;
-    font-size: 11px;
+    font-size: 18px;
     border-radius: 8px ;
 }
 .ac-btn-white{
     
-    width: 100px;
-    height: 40px;
-    margin: 0 10px;
+    width: 120px;
+    height: 55px;
+    margin-right: 10px;
     background-color: #ffffff;
     color: black;
-    font-size: 11px;
+    font-size: 18px;
     border-radius: 8px ;
 }
 
